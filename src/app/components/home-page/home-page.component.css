@@ -1,0 +1,32 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #213906;
+    color: white;
+    font-size: 20px;
+    height: 100;
+}
+
+.header a {
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+body, html {
+
+    height: 100%;
+    background-color: #716C41;
+    background-size: cover;
+
+  }
+
+  h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
