@@ -1,7 +1,7 @@
 .header {
     padding: 10px;
     text-align: center;
-    background: #213906;
+    background: #1A2D04;
     color: white;
     font-size: 20px;
     height: 100;
@@ -30,3 +30,41 @@ body, html {
     font-weight: bold;
     text-transform: uppercase;
   }
+
+  .image{
+    margin-top: 61px;
+    margin-bottom: 60px;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  .image:hover  {
+    opacity: 0.3;
+  }
+
+  .middle:hover  {
+    opacity: 1;
+  }
+
+
+  .info {
+    background-color: transparent;
+    /* color: white; */
+    /* font-size: 16px; */
+    /* padding: 16px 32px; */
+  }
+
+  

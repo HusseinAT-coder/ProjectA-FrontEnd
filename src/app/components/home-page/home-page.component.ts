@@ -10,6 +10,8 @@ export class HomePageComponent {
 
   projectName = Consts.PROJECTNAME
 
+  year = (new Date()).getFullYear();
+
   articles = [
     {
       Id: 1,
