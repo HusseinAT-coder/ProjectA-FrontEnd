@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { Consts } from '../app/shared/consts.const';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,4 +10,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ProjectA-FrontEnd';
   year = (new Date()).getFullYear();
+  projectName = Consts.PROJECTNAME
 }

@@ -1,17 +1,4 @@
-.header {
-    padding: 10px;
-    text-align: center;
-    background: #1A2D04;
-    color: white;
-    font-size: 20px;
-    height: 100;
-}
 
-.header a {
-    color: rgb(180, 180, 180);
-    font-size: 15px;
-    text-decoration: none;
-}
 
 body, html {
 
@@ -40,6 +27,18 @@ body, html {
     transition: .5s ease;
     backface-visibility: hidden;
   }
+
+  @media (max-width:1200px) and (min-width:991px) {
+    .image {
+      max-width: 450px;
+    }
+  }
+
+  /* @media (min-width:991px) {
+    .image {
+      max-width: fit-content;
+    }
+  } */
 
   .middle {
     transition: .5s ease;

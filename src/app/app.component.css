@@ -1,3 +1,18 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1A2D04;
+  color: white;
+  font-size: 20px;
+  height: 100;
+}
+
+.header a {
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+  text-decoration: none;
+}
+
 .footer-dark {
     padding:50px 0;
     color:#f0f9ff;
